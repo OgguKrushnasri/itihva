@@ -1,0 +1,8 @@
+{
+  "name": "ITIHVA - Ancient Heritage Adventure",
+  "description": "An educational 3D adventure game exploring Indian civilization, traditional village life, ancient temple architecture, natural heritage, and cultural traditions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

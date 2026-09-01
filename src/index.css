@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  h1, h2, h3, .font-heritage {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-folk {
+    font-family: 'Yatra One', cursive, sans-serif;
+  }
+}
+
+/* Custom styles for 3D overlay, HUD, and mini-games */
+.text-shadow-sm {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.text-shadow-md {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 0 12px rgba(245, 158, 11, 0.4);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.95), 0 0 20px rgba(217, 119, 6, 0.6);
+}
+
+.indian-pattern-border {
+  border-image: repeating-linear-gradient(45deg, #d97706, #d97706 10px, #b45309 10px, #b45309 20px) 1;
+}
+
+/* Hide scrollbars in game panels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
